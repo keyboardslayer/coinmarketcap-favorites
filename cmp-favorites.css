@@ -1,0 +1,50 @@
+
+.sorting_1 {
+  white-space: nowrap;
+}
+
+.x-toggle-fav {
+  opacity: 0;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 5px;
+  width: 25px;
+  fill: grey;
+  transition: all .1s;
+}
+  .x-toggle-fav:hover {
+    fill: #F9BB26;
+    text-decoration: none !important;
+  }
+  .x-toggle-fav:active {
+    transform: translateY(1px);
+  }
+  .x-toggle-fav svg {
+    width: 18px;
+    height: 18px;
+  }
+
+.x-fav-row .x-toggle-fav {
+  fill: #FF7474;
+}
+  .x-fav-row .x-toggle-fav:hover {
+    fill: #FF0000;
+  }
+
+
+.x-fav-row {
+  background: #FFFBDD;
+}
+  .x-fav-row td {
+    padding: 6px !important;
+    vertical-align: middle !important;
+    border-top: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+#currencies tr:hover .x-toggle-fav {
+  opacity: 1 !important;
+}
+
+
